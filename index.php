@@ -48,9 +48,9 @@
 	<?php echo $assoc['last_name'];?> <br>
 	 <?php $numbers = array(0 => 4, 5 => 8, 6 => 15, 9 => 16, 10 => 23, 15 => 42); ?>
 	<?php $assoc["age"] = 20; ?>
-	<?php $assoc["first_name"] = "Peeter" ?>
-	<?php echo $assoc['first_name'] = "Peeter";?> <br>
-	<?php echo $assoc['last_name'] = "Keegi";?> <br>
+	<?php $assoc["first_name"] = "Ingrid" ?>
+	<?php echo $assoc['first_name'] = "Ingrid";?> <br>
+	<?php echo $assoc['last_name'] = "Kelder";?> <br>
 	<?php echo $assoc['e-mail'] = "ingrid.kelder@khk.ee";?> <br>
 	<?php echo $assoc['e-mail'] = "ingrid.kelder@khk.ee";?> <br>
 	<?php echo "Minu nimi on {$assoc["first_name"]} {$assoc["last_name"]}. Minu e-post on {$assoc["e-mail"]}"; ?><br>
