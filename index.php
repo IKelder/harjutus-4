@@ -8,5 +8,10 @@
 	<?php echo $float = 3.14; ?><br>
 	<?php echo $float + 7; ?> <br>
 	<?php echo 4/3 ; ?> <br>
-</body>
+
+	<h2>Murdarvude ümardamine</h2>
+	<?php echo(round(3.14)); ?> <br>
+	<?php echo(ceil($float)); ?> <br>
+	<?php echo(floor($float)); ?> <br>
+	</body>
 </html>
