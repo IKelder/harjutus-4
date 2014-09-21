@@ -17,12 +17,13 @@
 	<h2> Andmetüübi funktsioonid </h2>
 	<?php echo $integer = 3; ?> <br>
 	<?php echo "Kas {$integer} on integer? " . is_int($integer); ?><br>
-	<?php echo "Kas 7 on integer? " . is_int(7); ?><br>
-	<?php echo "Kas 3.14 on integer? " . is_int($float); ?><br>
-	<?php echo "Kas 7 on float? " . is_int($float); ?><br>
-	<?php echo "Kas 3.14 on float? " . is_int(7); ?><br>
-	<?php echo "Kas 7 on number? " . is_int(7); ?><br>
-	<?php echo "Kas 3.14 on number? " . is_int(7); ?><br>
+	<?php echo "Kas {$float} on integer? " . is_int($integer); ?><br>
+	<?php echo "Kas {$integer} on integer? " . is_int(7); ?><br>
+	<?php echo "Kas {$float} on integer? " . is_int($float); ?><br>
+	<?php echo "Kas {$integer} on float? " . is_int($float); ?><br>
+	<?php echo "Kas {$float} on float? " . is_int(7); ?><br>
+	<?php echo "Kas {$integer} on number? " . is_int(7); ?><br>
+	<?php echo "Kas {$float} on number? " . is_int(7); ?><br>
 
 	<h2>Jadad (array) </h2>
 	<?php
